@@ -2,7 +2,7 @@
 
 class Izypayment {
     protected $key;
-    const END_POINT = 'https://www.izypayment.com/api/v1/payment';
+    const END_POINT = 'https://www.izypayment.com/api/v1';
     
     public function __construct($key) {
         $this->key = $key;   
